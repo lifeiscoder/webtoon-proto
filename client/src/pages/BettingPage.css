@@ -1,0 +1,23 @@
+.fs-09rem {
+  font-size: 0.9rem;
+}
+
+.webtoon {
+  margin: 5px 5px;
+  padding: 15px 15px;
+}
+
+.webtoon:hover {
+  color: white;
+  background-color: #636e72;
+  cursor: pointer;
+}
+
+.betting-container {
+  margin-bottom: 100px;
+}
+
+.ranking-em:hover {
+  background-color: #ff7675;
+  cursor: pointer;
+}

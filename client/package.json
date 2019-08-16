@@ -1,0 +1,27 @@
+{
+  "name": "WebtoonProto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
+    "start-serverside": "parcel ./public/index.html -d ../server/public",
+    "build-serverside": "parcel build ./public/index.html -d ../server/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
